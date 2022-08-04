@@ -14,7 +14,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   border-style: double;
   border-width: 10px;
-  background-color: black;
+  background-color: darkslateblue;
   color: white;
 }
 
@@ -47,6 +47,41 @@
 }
 
 .card{
+  border-style: solid;
+  background-color: tomato;
+  margin: 2%;
+  padding: 2%;
   flex-basis: 100%;
   text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.card:hover{
+  background-color: white;
+  border-color: lightcyan;
+  color: black;
+}
+
+.section{
+  margin-top: 1%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.round_container{
+  padding: 2%;
+  border-style: solid;
+  border-radius: 40%;
+  width: 80%;
+  text-align: center;
+  background-color: tomato;
+}
+
+.icon{
+  margin: 2%;
+}
+
+.tech_container{
+  display: flex;
+}
+
