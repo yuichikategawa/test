@@ -2,6 +2,7 @@
   import Head from 'next/head'
   import Image from 'next/image'
   import styles from '../styles/Home.module.css'
+  import GitImage from '../public/git.png'
 
   const Home: NextPage = () => {
     return (
@@ -80,7 +81,7 @@
 
           <div className={styles.tech_container}>
             <div className={styles.icon}>
-            <Image src="/git.png"alt="Git Logo" width={100} height={100}/>  
+            <Image src={GitImage} alt="Git Logo" width={100} height={100}/>  
             </div>          
             <div className={styles.icon}>
             <Image src="/infa.png"alt="Infa Logo" width={250} height={100}/>
